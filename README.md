@@ -1,6 +1,6 @@
-# Graph Convolutional Networks for Text Classification in PyTorch
+# Simplifying Graph Convolutional Networks in PyTorch (TextSGC)
 
-PyTorch 1.6 and Python 3.7 implementation of Graph Convolutional Networks for Text Classification [1].
+PyTorch 1.6 and Python 3.7 implementation of Simplifying Graph Convolutional Networks [1].
 
 Tested on the 20NG/R8/R52/Ohsumed/MR data set, the code on this repository can achieve the effect of the paper.
 
@@ -9,7 +9,7 @@ Tested on the 20NG/R8/R52/Ohsumed/MR data set, the code on this repository can a
 | dataset       | 20NG | R8 | R52 | Ohsumed | MR   |
 |---------------|----------|------|--------|--------|--------|
 | TextGCN(official) | 0.8634    | 0.9707 | 0.9356   | 0.6836   | 0.7674   |
-| This repo.    | 0.8618     | 0.9704 | 0.9354   | 0.6827  | 0.7643  |
+| This repo.    | 0.8605    | 0.9743 | 0.9384   | 0.6828  | 0.7728  |
 
 NOTE: The result of the experiment is to repeat the run 10 times, and then take the average of accuracy.
 
@@ -32,4 +32,4 @@ NOTE: The result of the experiment is to repeat the run 10 times, and then take 
 3. Training model, run `trainer.py`
 
 ## References
-[1] [Yao, L. , Mao, C. , & Luo, Y. . (2018). Graph convolutional networks for text classification.](https://arxiv.org/abs/1809.05679)
+[1] [Wu, F. , Zhang, T. , Souza, A. H. D. , Fifty, C. , Yu, T. , & Weinberger, K. Q. . (2019). Simplifying graph convolutional networks.](https://arxiv.org/abs/1902.07153)
